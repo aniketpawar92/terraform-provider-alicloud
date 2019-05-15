@@ -1,12 +1,14 @@
-data "alicloud_instance_types" "instance_type" {
+data "alicloud_instance_types_pawar" "instance_type" {
   instance_type_family = "ecs.n1"
   cpu_core_count = "1"
   memory_size = "2"
+  4444444444444444444444444444444
 }
 
-resource "alicloud_security_group" "group" {
+resource "alicloud_security_group_pawar" "group" {
   name = "${var.short_name}"
   description = "New security group"
+  222222222222222222222222222222
 }
 
 resource "alicloud_security_group_rule" "allow_http_80" {

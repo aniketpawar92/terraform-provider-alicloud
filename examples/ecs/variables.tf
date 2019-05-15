@@ -1,8 +1,8 @@
 variable "count" {
-  default = "1"
+  default = "1asdasda"
 }
 variable "count_format" {
-  default = "%02d"
+  default = "%02ddda"
 }
 variable "image_id" {
   default = "ubuntu_140405_64_40G_cloudinit_20161115.vhd"
